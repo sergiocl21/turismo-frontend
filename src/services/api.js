@@ -9,7 +9,7 @@ import axios from 'axios'
 
 // Instancia de Axios apuntando al backend
 const API = axios.create({
-  baseURL: 'https://darkorchid-mandrill-934066.hostingersite.com/api',
+  baseURL: 'http://localhost:8000/api',
   headers: { 'Content-Type': 'application/json' }
 })
 
